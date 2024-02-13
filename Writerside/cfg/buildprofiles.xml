@@ -2,8 +2,25 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
-    <build-profile instance="hi">
+    <variables>
+        <primary-color>forest</primary-color>
+        <custom-favicons>favicon.svg</custom-favicons>
+
+        <download-title>Downloads</download-title>
+        <download-page>https://github.com/lukasgolson/EABModel/releases</download-page>
+        <showDownloadButton>true</showDownloadButton>
+
+
+    </variables>
+
+
+    <footer>
+        <copyright>Alexander J.F. Martin; Lukas G. Olson 2024</copyright>
+    </footer>
+
+
+
+    <build-profile instance="emd">
         <variables>
             <noindex-content>false</noindex-content>
         </variables>
