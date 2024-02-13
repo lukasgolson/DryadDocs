@@ -60,7 +60,7 @@ jobs:
             name: github-pages
             url: ${{ steps.deployment.outputs.page_url }}
         # Requires the test job results
-        needs: test
+        needs: build
         runs-on: ubuntu-latest
         steps:
             - name: Download artifact
