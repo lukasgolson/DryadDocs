@@ -2,8 +2,9 @@
 
 All the formulas used in the simulation are configurable across three levels. Root (generic), Genus, and Species.
 
-Formulas are defined in a file called 'formulas.json' at the root of the simulation project. Sub-ranks override 
-properties from parent ranks. In cases where a formula is not defined in any rank, the formula will resolve as the
+Formulas are defined in a file called `formulas.json` at the root of the simulation project. 
+
+Sub-ranks override properties from parent ranks. In cases where a formula is not defined in any rank, the formula will resolve as the
 constant `0`. At each rank, you can define the name (top level name should be `root` or left undefined, 
 followed by the genus name at the second level, and species name at the third level).
 
@@ -24,14 +25,11 @@ Rank Definition Example:
   "SubRank": []
 }
 
-
-
-
 ```
 
 
 
-Default Config Example:
+The following default `formulas.json` is generated if the file does not exist when running a new simulation.
 ```JSON
 {
   "Config": {

@@ -1,0 +1,47 @@
+{
+  "NumberOfSteps": 20,
+  "Seed": 0,
+  "SpeciesComposition": [
+    {
+      "Genus": "Acer",
+      "Species": "rubrum",
+      "Ratio": 0.5
+    },
+    {
+      "Genus": "Fraxinus",
+      "Species": "americana",
+      "Ratio": 0.25
+    },
+    {
+      "Genus": "Tilia",
+      "Species": "americana",
+      "Ratio": 0.25
+    }
+  ],
+  "ScenarioParameters": [
+    {
+      "ScenarioName": "Control",
+      "InitialTreesCount": 2000,
+      "Injected": false,
+      "ReferenceYear": 2020,
+      "ReplantCapacity": 500,
+      "RemovalCapacity": 0
+    },
+    {
+      "ScenarioName": "Injection",
+      "InitialTreesCount": 2000,
+      "Injected": true,
+      "ReferenceYear": 2020,
+      "ReplantCapacity": 500,
+      "RemovalCapacity": 0
+    },
+    {
+      "ScenarioName": "Removal",
+      "InitialTreesCount": 2000,
+      "Injected": false,
+      "ReferenceYear": 2020,
+      "ReplantCapacity": 500,
+      "RemovalCapacity": 500
+    }
+  ]
+}
